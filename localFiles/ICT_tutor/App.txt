@@ -1,0 +1,22 @@
+import React, {Component} from 'react';
+import { AppRegistry, View, Text} from 'react-native'
+import {MenuProvider} from 'react-native-popup-menu';
+import Activation from './localFiles/ICT_tutor/screens/activate'
+import StackHome from './localFiles/ICT_tutor/StackHome';
+export default class App extends Component{
+state = {
+      verified: true
+    };
+  updateState =()=>this.setState({verified: true})
+  render(){
+    if(this.state.verified){
+      return  <MenuProvider>
+                <StackHome />
+            </MenuProvider>;
+    }else{
+      return <Activation /> ;
+    }
+  }
+}
+AppRegistry.registerComponent(App, ()=>App);
+

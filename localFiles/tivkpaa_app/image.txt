@@ -1,0 +1,3 @@
+<Image source = { require('./MyImages/logo.png')}
+                style = { { width: DeviceWidth * 0.09, height: DeviceWidth * 0.09, resizeMode: 'contain', marginLeft: 25, alignSelf: 'baseline'
+                }}/>

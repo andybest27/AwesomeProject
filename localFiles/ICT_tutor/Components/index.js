@@ -1,0 +1,9 @@
+export {default as GettingStart} from '../screens/GettingStart';
+export {default as CertificateCourses} from '../screens/CertificateCourses.js';
+export {default as ProfessionalCourses} from '../screens/ProfessionalCourses';
+export {default as SpecialProgramme} from '../screens/SpecialProgramme';
+export {default as AdvanceDiploma} from '../screens/AdvanceDiploma';
+export {default as DiplomaCourse} from '../screens/DiplomaCourses'
+export {default as HomeScreen} from "../screens/index";
+export {default as ExercisesScreen} from "../screens/exercises";
+export {default as SettingScreen} from "../screens/settings";
